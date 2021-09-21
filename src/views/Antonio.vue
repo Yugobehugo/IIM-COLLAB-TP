@@ -26,7 +26,7 @@
           </p>
 
           <div>
-            <button class="btn" v-on:click="getRandomProject">shuffle</button>
+            <button class="btn shuffle" v-on:click="getRandomProject">shuffle</button>
           </div>
         </div>
       </div>
@@ -70,7 +70,6 @@ export default {
   },
   methods: {
     getRandomProject() {
-      console.log(this.project);
       this.project = projects.filter(
         (el) => el.description !== this.project.description
       )[Math.floor(Math.random() * (projects.length - 1 ?? 0))];
