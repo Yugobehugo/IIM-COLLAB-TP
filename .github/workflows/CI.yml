@@ -19,5 +19,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run lint
+    - run: ./node_modules/.bin/cypress install
     - name: Cypress run
       uses: cypress-io/github-action@v2
