@@ -26,7 +26,9 @@
           </p>
 
           <div>
-            <button class="btn shuffle" v-on:click="getRandomProject">shuffle</button>
+            <button class="btn shuffle" v-on:click="getRandomProject">
+              shuffle
+            </button>
           </div>
         </div>
       </div>
