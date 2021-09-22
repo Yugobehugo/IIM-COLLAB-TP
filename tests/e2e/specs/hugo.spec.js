@@ -1,5 +1,7 @@
 describe("Test de Hugo", () => {
-
+  it("visiter le site", () => {
+        cy.visit("http://localhost:8081/hugo");
+    });
 
     it("Homepage ?", () => {
         cy.get("h1").should("have.text", "Hugo Boudalier");
