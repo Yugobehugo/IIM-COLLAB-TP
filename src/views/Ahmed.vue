@@ -37,10 +37,12 @@ export default {
   width: 30%;
   margin: 0 auto;
 }
+
 h1,
 h3 {
   text-align: center;
 }
+
 #banner {
   border: white 1px solid;
   z-index: -5;
@@ -52,6 +54,7 @@ h3 {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 #b1 {
   margin: 20px auto;
   text-decoration: none !important;
