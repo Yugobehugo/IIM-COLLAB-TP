@@ -3,15 +3,12 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/antonio">Antonio</router-link> |
-     <router-link to="/hugo">Hugo</router-link>
+    <router-link to="/hugo">Hugo</router-link>
   </div>
   <router-view />
 </template>
 
-<script>
-
-   
-</script>
+<script></script>
 
 <style>
 #app {
