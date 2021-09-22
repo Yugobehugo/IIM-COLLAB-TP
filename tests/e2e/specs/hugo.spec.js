@@ -1,6 +1,6 @@
 describe("Test de Hugo", () => {
-  it("visiter le site", () => {
-        cy.visit("http://localhost:8081/hugo");
+    it("visiter le site", () => {
+        cy.visit("http://localhost:8080/hugo");
     });
 
     it("Homepage ?", () => {
